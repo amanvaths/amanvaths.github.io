@@ -47,13 +47,17 @@
           width="36"
           height="36"
         >
-        <span class="nav__logo-text">Aman Vaths</span>
+        <span class="nav__logo-text">
+          Aman Vaths
+          <small class="nav__logo-org">Nadcab Labs</small>
+        </span>
       </a>
       <button class="nav__toggle" aria-label="Toggle menu" aria-expanded="false">
         <span></span><span></span><span></span>
       </button>
       <ul class="nav__links">
         <li><a href="#about">About</a></li>
+        <li><a href="#organization">Organization</a></li>
         <li><a href="#expertise">Expertise</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#writing">Writing</a></li>
@@ -111,7 +115,11 @@
           >
           <div class="profile-card__info">
             <span class="profile-card__name">Aman Vaths</span>
-            <span class="profile-card__role">Blockchain Architect</span>
+            <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="profile-card__org">
+              <img src="https://avatars.githubusercontent.com/u/53341229?v=4" alt="" class="profile-card__org-logo" width="18" height="18">
+              Nadcab Labs
+            </a>
+            <span class="profile-card__role">Founder & CTO</span>
           </div>
           <div class="profile-card__tags">
             <span>Solidity</span>
@@ -171,6 +179,39 @@
               <h3>Community & Literacy</h3>
               <p>Promoting blockchain literacy through workshops, technical writing, and open-source contributions.</p>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organization -->
+    <section class="section section--alt" id="organization">
+      <div class="container">
+        <div class="org-banner reveal">
+          <div class="org-banner__brand">
+            <img
+              src="https://avatars.githubusercontent.com/u/53341229?v=4"
+              alt="Nadcab Labs"
+              class="org-banner__logo"
+              width="64"
+              height="64"
+            >
+            <div>
+              <span class="section__eyebrow">Organization</span>
+              <h2 class="section__title">Nadcab Labs</h2>
+              <p class="org-banner__tagline">Digital engineering firm · AI · Web3 · Blockchain · Cloud</p>
+            </div>
+          </div>
+          <p class="org-banner__desc">
+            Nadcab Labs is a digital engineering company building enterprise-grade solutions across
+            AI, Web3, blockchain infrastructure, cybersecurity, and cloud. From stablecoin platforms
+            and DeFi products to decentralized identity and custom blockchain architecture — we ship
+            production systems, not demos.
+          </p>
+          <div class="org-banner__actions">
+            <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Visit Nadcab.com</a>
+            <a href="https://github.com/nadcab" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">GitHub @nadcab</a>
+            <a href="https://www.linkedin.com/company/nadcab" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">LinkedIn</a>
           </div>
         </div>
       </div>
@@ -334,7 +375,7 @@
         <div class="contact-card__content">
           <span class="section__eyebrow">Contact</span>
           <h2 class="section__title">Let's build something real.</h2>
-          <p>Open to collaborations on Web3 infrastructure, blockchain architecture, and enterprise digital engineering.</p>
+          <p>Open to collaborations on Web3 infrastructure, blockchain architecture, and enterprise digital engineering at <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="inline-link">Nadcab Labs</a>.</p>
         </div>
         <div class="contact-links">
           <a href="https://github.com/amanvaths" target="_blank" rel="noopener noreferrer" class="contact-link" aria-label="GitHub">
@@ -364,7 +405,7 @@
 
   <footer class="footer">
     <div class="container footer__inner">
-      <p>© <span id="year"></span> Aman Vaths. Built with passion for decentralized systems.</p>
+      <p>© <span id="year"></span> Aman Vaths · <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="footer__org">Nadcab Labs</a></p>
       <a href="#top" class="footer__top">Back to top ↑</a>
     </div>
   </footer>
