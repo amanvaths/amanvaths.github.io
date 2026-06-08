@@ -119,7 +119,7 @@
           <div class="profile-card__info">
             <span class="profile-card__name">Aman Vaths</span>
             <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="profile-card__org">
-              <img src="https://avatars.githubusercontent.com/u/53341229?v=4" alt="" class="profile-card__org-logo" width="18" height="18">
+              <img src="assets/orgs/nadcab.jpg" alt="" class="profile-card__org-logo" width="18" height="18">
               Nadcab Labs
             </a>
             <span class="profile-card__role">Founder & CTO</span>
@@ -187,41 +187,139 @@
       </div>
     </section>
 
-    <!-- Organization -->
+    <!-- Organizations Carousel -->
     <section class="section section--alt" id="organization">
       <div class="container">
-        <div class="org-banner reveal">
-          <div class="org-banner__brand">
-            <img
-              src="https://avatars.githubusercontent.com/u/53341229?v=4"
-              alt="Nadcab Labs"
-              class="org-banner__logo"
-              width="64"
-              height="64"
-            >
-            <div>
-              <span class="section__eyebrow">Organization</span>
-              <h2 class="section__title">Nadcab Labs</h2>
-              <p class="org-banner__tagline">Digital engineering firm · AI · Web3 · Blockchain · Cloud</p>
+        <div class="section__header reveal">
+          <span class="section__eyebrow">Organizations</span>
+          <h2 class="section__title">Companies & ventures I lead</h2>
+          <p class="section__desc">Founder and co-founder across Web3, blockchain, DeFi, and digital engineering.</p>
+        </div>
+
+        <div class="org-carousel reveal" data-carousel>
+          <button class="org-carousel__arrow org-carousel__arrow--prev" type="button" aria-label="Previous organization">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+          </button>
+
+          <div class="org-carousel__viewport">
+            <div class="org-carousel__track">
+              <!-- Nadcab Labs -->
+              <article class="org-slide is-active" data-slide="0">
+                <div class="org-slide__brand">
+                  <img src="assets/orgs/nadcab.jpg" alt="Nadcab Labs logo" class="org-slide__logo" width="72" height="72">
+                  <div>
+                    <span class="org-slide__role">Founder & CTO</span>
+                    <h3 class="org-slide__name">Nadcab Labs</h3>
+                    <p class="org-slide__tagline">Digital engineering · AI · Web3 · Blockchain · Cloud</p>
+                  </div>
+                </div>
+                <p class="org-slide__desc">
+                  Global digital engineering firm delivering 2,000+ enterprise projects across AI, Web3,
+                  blockchain, cloud, cybersecurity, and modern app development — from fintech to DePIN networks.
+                </p>
+                <div class="org-slide__actions">
+                  <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Visit Nadcab.com</a>
+                  <a href="https://www.linkedin.com/company/nadcab" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">LinkedIn</a>
+                </div>
+              </article>
+
+              <!-- INRx Foundation -->
+              <article class="org-slide" data-slide="1">
+                <div class="org-slide__brand">
+                  <img src="assets/orgs/inrx.jpg" alt="INRx Foundation logo" class="org-slide__logo" width="72" height="72">
+                  <div>
+                    <span class="org-slide__role">Co-Founder</span>
+                    <h3 class="org-slide__name">INRx Foundation</h3>
+                    <p class="org-slide__tagline">Stablecoin · DeFi · Healthcare · Blockchain</p>
+                  </div>
+                </div>
+                <p class="org-slide__desc">
+                  Building India's stablecoin infrastructure (INRx) and decentralized finance solutions.
+                  Harnessing blockchain to transform healthcare access, financial rails, and digital identity at scale.
+                </p>
+                <div class="org-slide__actions">
+                  <a href="https://inrx.io" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Visit INRx.io</a>
+                  <a href="https://github.com/inrxstablecoin" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">GitHub</a>
+                </div>
+              </article>
+
+              <!-- Seedx -->
+              <article class="org-slide" data-slide="2">
+                <div class="org-slide__brand">
+                  <img src="assets/orgs/seedx.jpg" alt="Seedx logo" class="org-slide__logo" width="72" height="72">
+                  <div>
+                    <span class="org-slide__role">Co-Founder</span>
+                    <h3 class="org-slide__name">Seedx</h3>
+                    <p class="org-slide__tagline">DEX · DeFi · Token Lock · Cross-chain</p>
+                  </div>
+                </div>
+                <p class="org-slide__desc">
+                  Decentralized crypto exchange and DeFi platform — AMM, staking, SEEDxLock token locking,
+                  and gamified earning tools across Ethereum, BSC, and Polygon ecosystems.
+                </p>
+                <div class="org-slide__actions">
+                  <a href="https://seedx.app" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Visit Seedx.app</a>
+                  <a href="https://docs.seedx.app" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Documentation</a>
+                </div>
+              </article>
+
+              <!-- Xamer -->
+              <article class="org-slide" data-slide="3">
+                <div class="org-slide__brand">
+                  <img src="assets/orgs/xamer.svg" alt="Xamer Web3 Security logo" class="org-slide__logo" width="72" height="72">
+                  <div>
+                    <span class="org-slide__role">Founder</span>
+                    <h3 class="org-slide__name">Xamer Web3 Security</h3>
+                    <p class="org-slide__tagline">Smart Contract Audit · dApp Security · Pen Testing</p>
+                  </div>
+                </div>
+                <p class="org-slide__desc">
+                  Web3's leading smart contract auditor — comprehensive security audits, penetration testing,
+                  bug bounty programs, and on-chain monitoring for protocols and enterprises.
+                </p>
+                <div class="org-slide__actions">
+                  <a href="https://xamer.io" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Visit Xamer.io</a>
+                  <a href="https://linkedin.com/company/xameraudit" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">LinkedIn</a>
+                </div>
+              </article>
             </div>
           </div>
-          <p class="org-banner__desc">
-            Nadcab Labs is a digital engineering company building enterprise-grade solutions across
-            AI, Web3, blockchain infrastructure, cybersecurity, and cloud. From stablecoin platforms
-            and DeFi products to decentralized identity and custom blockchain architecture — we ship
-            production systems, not demos.
-          </p>
-          <div class="org-banner__actions">
-            <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Visit Nadcab.com</a>
-            <a href="https://github.com/nadcab" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">GitHub @nadcab</a>
-            <a href="https://www.linkedin.com/company/nadcab" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">LinkedIn</a>
+
+          <button class="org-carousel__arrow org-carousel__arrow--next" type="button" aria-label="Next organization">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+
+          <div class="org-carousel__tabs" role="tablist" aria-label="Select organization">
+            <button class="org-tab is-active" type="button" role="tab" aria-selected="true" data-go="0">
+              <img src="assets/orgs/nadcab.jpg" alt="" width="32" height="32">
+              <span>Nadcab</span>
+            </button>
+            <button class="org-tab" type="button" role="tab" aria-selected="false" data-go="1">
+              <img src="assets/orgs/inrx.jpg" alt="" width="32" height="32">
+              <span>INRx</span>
+            </button>
+            <button class="org-tab" type="button" role="tab" aria-selected="false" data-go="2">
+              <img src="assets/orgs/seedx.jpg" alt="" width="32" height="32">
+              <span>Seedx</span>
+            </button>
+            <button class="org-tab" type="button" role="tab" aria-selected="false" data-go="3">
+              <img src="assets/orgs/xamer.svg" alt="" width="32" height="32">
+              <span>Xamer</span>
+            </button>
+          </div>
+
+          <div class="org-carousel__dots" aria-hidden="true">
+            <span class="org-dot is-active"></span>
+            <span class="org-dot"></span>
+            <span class="org-dot"></span>
+            <span class="org-dot"></span>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Expertise -->
-    <section class="section section--alt" id="expertise">
+    <section class="section" id="expertise">
       <div class="container">
         <div class="section__header reveal">
           <span class="section__eyebrow">Expertise</span>

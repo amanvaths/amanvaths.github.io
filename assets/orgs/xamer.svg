@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" fill="none">
+  <rect width="128" height="128" rx="24" fill="#0f172a"/>
+  <rect x="8" y="8" width="112" height="112" rx="18" fill="url(#xg)" opacity="0.25"/>
+  <path d="M64 28L88 44V72L64 88L40 72V44L64 28Z" stroke="#22d3ee" stroke-width="4" fill="none"/>
+  <path d="M64 46L74 52V66L64 72L54 66V52L64 46Z" fill="#6366f1"/>
+  <text x="64" y="108" text-anchor="middle" fill="#e2e8f0" font-family="Arial,sans-serif" font-size="16" font-weight="700">XAMER</text>
+  <defs>
+    <linearGradient id="xg" x1="8" y1="8" x2="120" y2="120">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#6366f1"/>
+    </linearGradient>
+  </defs>
+</svg>
