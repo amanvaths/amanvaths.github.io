@@ -151,17 +151,13 @@ img {
   font-size: 1.05rem;
 }
 
-.nav__logo-mark {
-  display: grid;
-  place-items: center;
+.nav__logo-avatar {
   width: 36px;
   height: 36px;
   border-radius: 10px;
-  background: var(--gradient);
-  font-size: 0.75rem;
-  font-weight: 700;
-  color: var(--bg);
-  letter-spacing: -0.02em;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 0 0 1px rgba(0, 212, 170, 0.2);
 }
 
 .nav__links {
