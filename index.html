@@ -3,184 +3,94 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="theme-color" content="#12151c">
-  <title>Aman Vaths — Founder & CTO | Blockchain Architect & Web3 Innovator</title>
-  <meta name="description" content="Aman Vaths is the Founder & CTO of Nadcab Labs — blockchain architect building enterprise AI, Web3, DeFi, and production-grade distributed systems.">
+  <meta name="theme-color" content="#05060a">
+  <title>Aman Vaths — Founder & CTO | Blockchain Architect</title>
+  <meta name="description" content="Aman Vaths — Founder & CTO of Nadcab Labs. Blockchain architect building Web3, DeFi, AI & enterprise decentralized infrastructure.">
   <meta property="og:url" content="https://amanvaths.github.io/">
-  <meta property="og:title" content="Aman Vaths — Blockchain Architect & Web3 Innovator">
   <meta property="og:image" content="https://amanvaths.github.io/assets/avatar.jpg">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:creator" content="@aman_vaths">
   <link rel="icon" href="assets/avatar.jpg" type="image/jpeg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <!-- Top Bar -->
-  <div class="topbar">
-    <div class="container topbar__inner">
-      <div class="topbar__left">
-        <span>India · Web3 · Blockchain</span>
-        <a href="mailto:contact@nadcab.com">contact@nadcab.com</a>
-      </div>
-      <div class="topbar__social">
-        <a href="https://github.com/amanvaths" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a>
-        <a href="https://linkedin.com/in/amanvaths" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">IN</a>
-        <a href="https://twitter.com/aman_vaths" target="_blank" rel="noopener noreferrer" aria-label="Twitter">X</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Header -->
+<body class="grain">
   <header class="header" id="top">
-    <div class="container header__inner">
-      <a href="#top" class="logo">
-        <img src="assets/avatar.jpg" alt="Aman Vaths" width="42" height="42">
-        <span>Aman<strong>Vaths</strong></span>
+    <nav class="nav" id="nav">
+      <a href="#top" class="nav__brand">
+        <span class="nav__icon">AV</span>
+        <span>Aman Vaths</span>
       </a>
-      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav">
-        <a href="#top">Home</a>
+      <div class="nav__links" id="navLinks">
         <a href="#about">About</a>
-        <a href="#services">Services</a>
         <a href="#organizations">Organizations</a>
-        <a href="#projects">Portfolio</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#projects">Projects</a>
         <a href="#writing">Blog</a>
-        <a href="#contact" class="nav__cta">Contact</a>
-      </nav>
+        <a href="https://amanvaths.github.io/lae/" class="nav__lae">$LAE</a>
+      </div>
+      <div class="nav__actions">
+        <a href="#contact" class="btn btn--primary btn--sm">Contact</a>
+        <button class="nav__toggle" id="navToggle" aria-label="Menu"><span></span><span></span></button>
+      </div>
+    </nav>
+    <div class="nav__mobile" id="navMobile" hidden>
+      <a href="#about">About</a>
+      <a href="#organizations">Organizations</a>
+      <a href="#expertise">Expertise</a>
+      <a href="#projects">Projects</a>
+      <a href="#writing">Blog</a>
+      <a href="https://amanvaths.github.io/lae/">$LAE Protocol</a>
+      <a href="#contact" class="btn btn--primary">Contact</a>
     </div>
   </header>
 
   <main>
-    <!-- Hero Slider -->
+    <!-- Hero -->
     <section class="hero">
-      <div class="hero__slide hero__slide--active">
-        <div class="hero__overlay"></div>
-        <div class="container hero__content">
-          <p class="hero__label">Founder & CTO · Nadcab Labs</p>
-          <h1>Decentralization Revolution<br>of <span class="gold">Money Systems</span></h1>
-          <p class="hero__desc">Aman Vaths builds production-ready Web3 infrastructure — stablecoins, DeFi, identity, smart contracts, and enterprise blockchain at global scale.</p>
+      <div class="hero__bg"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy reveal">
+          <span class="chip">
+            <span class="chip__dot"></span>
+            Founder & CTO · Nadcab Labs
+          </span>
+          <h1>Your network,<br><span class="text-gradient">now on-chain.</span></h1>
+          <p>Aman Vaths builds production-ready Web3 infrastructure — stablecoins, DeFi, identity, smart contracts & enterprise blockchain. <strong>2,000+ projects shipped.</strong></p>
           <div class="hero__btns">
-            <a href="#projects" class="btn btn--gold">View Portfolio</a>
-            <a href="#about" class="btn btn--outline">Our Story</a>
+            <a href="#projects" class="btn btn--primary">View Projects <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+            <a href="#about" class="btn btn--ghost">Explore profile</a>
+          </div>
+          <div class="hero__trust">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            Web3 · AI · Blockchain · Audited Systems
           </div>
         </div>
-      </div>
-      <div class="hero__slide">
-        <div class="hero__overlay"></div>
-        <div class="container hero__content">
-          <p class="hero__label">Blockchain Architect · Web3 Innovator</p>
-          <h1>Web3 Tech That<br><span class="gold">Changes The World</span></h1>
-          <p class="hero__desc">From Nadcab Labs to INRx, Seedx & Xamer — engineering decentralized systems that ship beyond hype and speculation.</p>
-          <div class="hero__btns">
-            <a href="#organizations" class="btn btn--gold">Our Ventures</a>
-            <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="btn btn--outline">Nadcab Labs</a>
-          </div>
-        </div>
-      </div>
-      <div class="hero__dots">
-        <button class="hero__dot hero__dot--active" aria-label="Slide 1"></button>
-        <button class="hero__dot" aria-label="Slide 2"></button>
-      </div>
-    </section>
-
-    <!-- Intro -->
-    <section class="intro">
-      <div class="container intro__inner">
-        <p class="intro__quote">In a world where billions are connected online, AI drives decisions, and assets move digitally — <strong>global finance still runs on legacy rails built before the internet.</strong></p>
-        <p class="intro__sub">Why? The payment and identity infrastructure was built decades ago with few fundamental updates. That's the problem Aman Vaths solves.</p>
-      </div>
-    </section>
-
-    <!-- About / What is -->
-    <section class="section section--dark" id="about">
-      <div class="container about-split">
-        <div class="about-split__visual reveal">
-          <div class="about-img-wrap">
-            <img src="assets/avatar.jpg" alt="Aman Vaths" class="about-img">
-            <div class="about-img-badge">
-              <span class="about-img-badge__num">18+</span>
-              <span class="about-img-badge__txt">Open Source<br>Projects</span>
+        <div class="hero__visual reveal">
+          <div class="hero-card glass">
+            <div class="hero-card__ring"></div>
+            <img src="assets/avatar.jpg" alt="Aman Vaths" class="hero-card__avatar">
+            <p class="hero-card__name">Aman Vaths</p>
+            <p class="hero-card__role">Blockchain Architect</p>
+            <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="hero-card__org">
+              <img src="assets/orgs/nadcab.jpg" alt="" width="18" height="18"> Nadcab Labs
+            </a>
+            <div class="hero-card__tags">
+              <span>Solidity</span><span>TypeScript</span><span>DeFi</span>
+            </div>
+            <div class="hero-card__price glass-inner">
+              <span class="hero-card__price-label">Building since</span>
+              <span class="hero-card__price-val">2016</span>
+              <span class="hero-card__price-change">Web3 Pioneer</span>
             </div>
           </div>
         </div>
-        <div class="about-split__content reveal">
-          <span class="section-label">About</span>
-          <h2 class="section-title">What is <span class="gold">Aman Vaths</span> Building?</h2>
-          <p>Aman Vaths is the <strong>Founder & CTO of Nadcab Labs</strong> — a blockchain architect and systems engineer focused on production-ready decentralized infrastructure. With education from MNNIT and roots in Allahabad, he leads complex Web3 systems from design to deployment.</p>
-          <p>Nadcab Labs has delivered <strong>2,000+ global projects</strong> across AI, blockchain, cloud, and cybersecurity — emphasizing systems that work in production, not just demos.</p>
-          <ul class="check-list">
-            <li>Enterprise AI & Web3 product engineering</li>
-            <li>Stablecoin & DeFi payment rails</li>
-            <li>Decentralized identity & on-chain KYC</li>
-            <li>Cross-chain P2P & smart contract platforms</li>
-            <li>MEV infrastructure & trading systems</li>
-            <li>Custom Layer-1 / Layer-3 blockchain architecture</li>
-          </ul>
-          <a href="#contact" class="btn btn--gold">Connect With Me</a>
-        </div>
       </div>
-    </section>
-
-    <!-- Feature Boxes -->
-    <section class="section" id="services">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-label">Our Services</span>
-          <h2 class="section-title">Built To <span class="gold">Last & Scale</span></h2>
-          <p>Development activity and engineering quality among the highest in the Web3 space.</p>
-        </div>
-        <div class="feature-grid">
-          <div class="feature-box reveal">
-            <div class="feature-box__icon">⛓</div>
-            <h3>Blockchain & DeFi</h3>
-            <p>Smart contracts, stablecoins, payment rails, cross-chain protocols, and DeFi pool infrastructure.</p>
-          </div>
-          <div class="feature-box reveal">
-            <div class="feature-box__icon">🤖</div>
-            <h3>AI & Big Data</h3>
-            <p>Enterprise AI solutions, mempool monitoring, MEV bot architecture, and data-driven systems.</p>
-          </div>
-          <div class="feature-box reveal">
-            <div class="feature-box__icon">🛡</div>
-            <h3>Identity & Security</h3>
-            <p>Decentralized identity, KYC verification networks, and production-grade cybersecurity.</p>
-          </div>
-          <div class="feature-box reveal">
-            <div class="feature-box__icon">☁</div>
-            <h3>Cloud & Enterprise</h3>
-            <p>Admin panels, token asset libraries, scalable APIs, and full-stack product delivery.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Network Section -->
-    <section class="section section--alt">
-      <div class="container network-split">
-        <div class="network-split__content reveal">
-          <span class="section-label">The Network</span>
-          <h2 class="section-title">The Fastest Growing <span class="gold">Web3 Ecosystem</span></h2>
-          <p>Through Nadcab Labs, INRx Foundation, Seedx, and Xamer — Aman has built a multi-venture ecosystem spanning digital engineering, stablecoins, DeFi exchanges, and Web3 security audits.</p>
-          <p>Every venture funds its own growth — from enterprise blockchain delivery to open-source contributions and technical writing that promotes blockchain literacy worldwide.</p>
-        </div>
-        <div class="network-split__cards reveal">
-          <div class="mini-card">
-            <h4>Connectivity</h4>
-            <p>Cross-chain payment networks & on-ramps</p>
-          </div>
-          <div class="mini-card">
-            <h4>Instant Settlement</h4>
-            <p>On-demand smart contract execution</p>
-          </div>
-          <div class="mini-card">
-            <h4>Real-time Traceability</h4>
-            <p>On-chain identity & audit trails</p>
-          </div>
+      <!-- Marquee -->
+      <div class="marquee">
+        <div class="marquee__track">
+          <span>Ethereum</span><span>·</span><span>BNB Chain</span><span>·</span><span>Polygon</span><span>·</span><span>Arbitrum</span><span>·</span><span>Nadcab Labs</span><span>·</span><span>INRx</span><span>·</span><span>Seedx</span><span>·</span><span>Xamer Audit</span><span>·</span>
+          <span>Ethereum</span><span>·</span><span>BNB Chain</span><span>·</span><span>Polygon</span><span>·</span><span>Arbitrum</span><span>·</span><span>Nadcab Labs</span><span>·</span><span>INRx</span><span>·</span><span>Seedx</span><span>·</span><span>Xamer Audit</span><span>·</span>
         </div>
       </div>
     </section>
@@ -188,238 +98,199 @@
     <!-- Stats -->
     <section class="stats-section">
       <div class="container">
-        <div class="section-head section-head--light reveal">
-          <span class="section-label section-label--light">Interesting Stats</span>
-          <h2 class="section-title section-title--light">Growing <span class="gold">Global Network</span></h2>
-        </div>
-        <div class="stats-grid reveal">
-          <div class="stat-box">
-            <span class="stat-box__num" data-count="2000">0</span><span class="stat-box__suffix">+</span>
-            <span class="stat-box__label">Enterprise<br>Projects</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-box__num" data-count="18">0</span><span class="stat-box__suffix">+</span>
-            <span class="stat-box__label">Open Source<br>Repositories</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-box__num" data-count="4">0</span>
-            <span class="stat-box__label">Ventures<br>Founded</span>
-          </div>
-          <div class="stat-box">
-            <span class="stat-box__num" data-count="30">0</span><span class="stat-box__suffix">+</span>
-            <span class="stat-box__label">Industries<br>Mastered</span>
-          </div>
+        <div class="stats-grid glass reveal">
+          <div class="stat-cell"><span class="stat-cell__num" data-count="18">0</span><span class="stat-cell__suffix">+</span><span class="stat-cell__label">Open Source Repos</span></div>
+          <div class="stat-cell"><span class="stat-cell__num" data-count="2000">0</span><span class="stat-cell__suffix">+</span><span class="stat-cell__label">Enterprise Projects</span></div>
+          <div class="stat-cell"><span class="stat-cell__num" data-count="4">0</span><span class="stat-cell__label">Ventures Founded</span></div>
+          <div class="stat-cell"><span class="stat-cell__num" data-count="30">0</span><span class="stat-cell__suffix">+</span><span class="stat-cell__label">Industries Mastered</span></div>
         </div>
       </div>
     </section>
 
-    <!-- Organizations / Partners -->
-    <section class="section" id="organizations">
+    <!-- About -->
+    <section class="section" id="about">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-label">Our Partners & Ventures</span>
-          <h2 class="section-title">Organizations <span class="gold">I Lead</span></h2>
+          <span class="eyebrow">Why Aman Vaths</span>
+          <h2>Web3 infrastructure, <span class="text-gradient">rebuilt for production</span></h2>
+          <p>Traditional systems hide the ledger and gate the payouts. Aman builds economies on-chain — fair, instant, and impossible to fake.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card glass glass-hover reveal">
+            <div class="about-card__icon">⛓</div>
+            <h3>Network-to-earn</h3>
+            <p>Every connection strengthens the protocol — DeFi pools, referral engines, and multi-level on-chain reward routing.</p>
+          </div>
+          <div class="about-card glass glass-hover reveal">
+            <div class="about-card__icon">🔍</div>
+            <h3>On-chain & transparent</h3>
+            <p>No hidden back-office. Every reward, rank and payout is a verifiable smart contract transaction.</p>
+          </div>
+          <div class="about-card glass glass-hover reveal">
+            <div class="about-card__icon">⚡</div>
+            <h3>Instant settlement</h3>
+            <p>Rewards and payments land in wallets the moment they're earned — no 30-day waits.</p>
+          </div>
+          <div class="about-card glass glass-hover reveal">
+            <div class="about-card__icon">🔐</div>
+            <h3>Self-custody first</h3>
+            <p>Your keys, your tokens, your network. Production-grade security with Xamer audit standards.</p>
+          </div>
+        </div>
+        <div class="about-bio glass reveal">
+          <p>Aman Vaths is the <strong>Founder & CTO of Nadcab Labs</strong> — blockchain architect with MNNIT engineering background. His work spans stablecoin platforms, on-chain KYC, cross-chain P2P, MEV infrastructure, and custom Layer-1/Layer-3 chains.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Organizations -->
+    <section class="section section--alt" id="organizations">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Organizations</span>
+          <h2>Companies & ventures <span class="text-gradient-gold">I lead</span></h2>
         </div>
         <div class="org-grid">
-          <article class="org-card reveal">
+          <article class="org-card glass glass-hover reveal">
             <img src="assets/orgs/nadcab.jpg" alt="Nadcab Labs" class="org-card__logo">
-            <h3>Nadcab Labs</h3>
             <span class="org-card__role">Founder & CTO</span>
-            <p>Global digital engineering — AI, Web3, blockchain, cloud & cybersecurity.</p>
-            <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer" class="org-card__link">Visit Site →</a>
+            <h3>Nadcab Labs</h3>
+            <p>AI · Web3 · Blockchain · Cloud · 2,000+ global projects</p>
+            <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer">nadcab.com →</a>
           </article>
-          <article class="org-card reveal">
-            <img src="assets/orgs/inrx.jpg" alt="INRx Foundation" class="org-card__logo">
+          <article class="org-card glass glass-hover reveal">
+            <img src="assets/orgs/inrx.jpg" alt="INRx" class="org-card__logo">
+            <span class="org-card__role">Co-Founder</span>
             <h3>INRx Foundation</h3>
-            <span class="org-card__role">Co-Founder</span>
-            <p>India's stablecoin infrastructure — DeFi, healthcare & blockchain finance.</p>
-            <a href="https://inrx.io" target="_blank" rel="noopener noreferrer" class="org-card__link">Visit Site →</a>
+            <p>India's stablecoin · DeFi · Healthcare blockchain</p>
+            <a href="https://inrx.io" target="_blank" rel="noopener noreferrer">inrx.io →</a>
           </article>
-          <article class="org-card reveal">
+          <article class="org-card glass glass-hover reveal">
             <img src="assets/orgs/seedx.jpg" alt="Seedx" class="org-card__logo">
-            <h3>Seedx</h3>
             <span class="org-card__role">Co-Founder</span>
-            <p>Decentralized exchange — AMM, staking, token lock & cross-chain DeFi.</p>
-            <a href="https://seedx.app" target="_blank" rel="noopener noreferrer" class="org-card__link">Visit Site →</a>
+            <h3>Seedx</h3>
+            <p>DEX · AMM · Staking · Cross-chain DeFi</p>
+            <a href="https://seedx.app" target="_blank" rel="noopener noreferrer">seedx.app →</a>
           </article>
-          <article class="org-card reveal">
+          <article class="org-card glass glass-hover reveal">
             <img src="assets/orgs/xamer.svg" alt="Xamer" class="org-card__logo">
-            <h3>Xamer Web3 Security</h3>
             <span class="org-card__role">Founder</span>
-            <p>Smart contract audits, dApp security, pen testing & bug bounty programs.</p>
-            <a href="https://xamer.io" target="_blank" rel="noopener noreferrer" class="org-card__link">Visit Site →</a>
+            <h3>Xamer Security</h3>
+            <p>Smart contract audits · dApp security · Pen testing</p>
+            <a href="https://xamer.io" target="_blank" rel="noopener noreferrer">xamer.io →</a>
           </article>
         </div>
       </div>
     </section>
 
-    <!-- Team -->
-    <section class="section section--dark" id="team">
-      <div class="container">
-        <div class="section-head reveal">
-          <span class="section-label">The Founder</span>
-          <h2 class="section-title">Meet <span class="gold">The Team</span></h2>
-        </div>
-        <div class="team-grid">
-          <div class="team-card reveal">
-            <div class="team-card__img-wrap">
-              <img src="assets/avatar.jpg" alt="Aman Vaths">
-            </div>
-            <h3>Aman Vaths</h3>
-            <span class="team-card__role">Founder & CTO</span>
-            <p>Blockchain architect building decentralized infrastructure across 4 ventures and 2,000+ enterprise projects.</p>
-            <div class="team-card__social">
-              <a href="https://github.com/amanvaths" target="_blank" rel="noopener noreferrer">GitHub</a>
-              <a href="https://linkedin.com/in/amanvaths" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <a href="https://twitter.com/aman_vaths" target="_blank" rel="noopener noreferrer">Twitter</a>
-            </div>
+    <!-- LAE Featured -->
+    <section class="section lae-feature">
+      <div class="container lae-feature__inner glass reveal">
+        <div>
+          <span class="eyebrow">Featured Project</span>
+          <h2>$LAE — The Decentralized <span class="text-gradient">Network Token</span></h2>
+          <p>Turn the power of networking into a transparent, on-chain rewards economy. Build your network, earn instantly, own your growth.</p>
+          <div class="lae-feature__btns">
+            <a href="https://amanvaths.github.io/lae/" class="btn btn--primary">Explore $LAE</a>
+            <a href="https://amanvaths.github.io/lae/whitepaper/" class="btn btn--ghost">Whitepaper</a>
           </div>
         </div>
+        <div class="lae-feature__badge">
+          <span class="lae-feature__price">$LAE</span>
+          <span class="lae-feature__sub">Live on-chain · Audited</span>
+        </div>
       </div>
     </section>
 
-    <!-- Portfolio -->
-    <section class="section" id="projects">
+    <!-- Expertise -->
+    <section class="section" id="expertise">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-label">Works From The Past</span>
-          <h2 class="section-title">Selected <span class="gold">Open Source</span> Work</h2>
-          <p>The portfolio of blockchain & Web3 projects built and shipped.</p>
+          <span class="eyebrow">Expertise</span>
+          <h2>Core <span class="text-gradient">capabilities</span></h2>
         </div>
-        <div class="portfolio-grid">
-          <a href="https://github.com/amanvaths/lae" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
-            <span class="portfolio-card__tag">TypeScript</span>
-            <h3>lae</h3>
-            <p>Web3 platform — token ecosystem, dashboard, wallet, P2P & DeFi.</p>
-          </a>
-          <a href="https://github.com/amanvaths/p2p-crosschain" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
-            <span class="portfolio-card__tag">Solidity</span>
-            <h3>p2p-crosschain</h3>
-            <p>Cross-chain peer-to-peer decentralized asset transfers.</p>
-          </a>
-          <a href="https://github.com/amanvaths/alpha-wallet-android-for-pepper" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
-            <span class="portfolio-card__tag">Java</span>
-            <h3>alpha-wallet-android</h3>
-            <p>Advanced Ethereum mobile wallet for Android.</p>
-          </a>
-          <a href="https://github.com/amanvaths/assets" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
-            <span class="portfolio-card__tag">TypeScript</span>
-            <h3>assets</h3>
-            <p>Comprehensive crypto token information library.</p>
-          </a>
-          <a href="https://github.com/amanvaths/analog_apis" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
-            <span class="portfolio-card__tag">JavaScript</span>
-            <h3>analog_apis</h3>
-            <p>Backend API for blockchain product infrastructure.</p>
-          </a>
-          <a href="https://github.com/amanvaths/INRx-farming" target="_blank" rel="noopener noreferrer" class="portfolio-card reveal">
-            <span class="portfolio-card__tag">TypeScript</span>
-            <h3>INRx-farming</h3>
-            <p>DeFi yield farming with smart contract liquidity.</p>
-          </a>
+        <div class="expertise-grid">
+          <div class="expertise-card glass reveal"><span class="expertise-card__num">01</span><h3>Web3 Engineering</h3><p>Wallets, marketplaces, on-ramps, dApps end-to-end.</p><div class="tags"><span>Ethereum</span><span>Solidity</span></div></div>
+          <div class="expertise-card glass reveal"><span class="expertise-card__num">02</span><h3>Distributed Systems</h3><p>Cross-chain protocols, high-concurrency blockchain APIs.</p><div class="tags"><span>Substrate</span><span>Polkadot</span></div></div>
+          <div class="expertise-card glass reveal"><span class="expertise-card__num">03</span><h3>MEV & Trading</h3><p>Mempool analysis, arbitrage, WebSocket bot infrastructure.</p><div class="tags"><span>MEV</span><span>Arbitrage</span></div></div>
+          <div class="expertise-card glass reveal"><span class="expertise-card__num">04</span><h3>Enterprise Solutions</h3><p>Admin panels, DeFi pools, token libraries, full-stack delivery.</p><div class="tags"><span>TypeScript</span><span>React</span></div></div>
         </div>
-        <div class="text-center reveal" style="margin-top:2rem">
-          <a href="https://github.com/amanvaths?tab=repositories" target="_blank" rel="noopener noreferrer" class="btn btn--outline-dark">View All Cases →</a>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="eyebrow">Portfolio</span>
+          <h2>Selected <span class="text-gradient">open source</span> work</h2>
+          <p>From <a href="https://github.com/amanvaths" target="_blank" rel="noopener noreferrer" class="link">GitHub</a></p>
+        </div>
+        <div class="project-grid">
+          <a href="https://github.com/amanvaths/lae" class="project-card glass glass-hover reveal"><span class="project-card__tag">TypeScript</span><h3>lae</h3><p>Web3 platform — dashboard, wallet, P2P & DeFi modules.</p></a>
+          <a href="https://github.com/amanvaths/p2p-crosschain" class="project-card glass glass-hover reveal"><span class="project-card__tag">Solidity</span><h3>p2p-crosschain</h3><p>Cross-chain peer-to-peer asset transfers.</p></a>
+          <a href="https://github.com/amanvaths/alpha-wallet-android-for-pepper" class="project-card glass glass-hover reveal"><span class="project-card__tag">Java</span><h3>alpha-wallet</h3><p>Advanced Ethereum Android wallet.</p></a>
+          <a href="https://github.com/amanvaths/assets" class="project-card glass glass-hover reveal"><span class="project-card__tag">TypeScript</span><h3>assets</h3><p>Crypto token information library.</p></a>
+          <a href="https://github.com/amanvaths/analog_apis" class="project-card glass glass-hover reveal"><span class="project-card__tag">JavaScript</span><h3>analog_apis</h3><p>Blockchain product backend APIs.</p></a>
+          <a href="https://github.com/amanvaths/INRx-farming" class="project-card glass glass-hover reveal"><span class="project-card__tag">TypeScript</span><h3>INRx-farming</h3><p>DeFi yield farming platform.</p></a>
         </div>
       </div>
     </section>
 
     <!-- Blog -->
-    <section class="section section--alt" id="writing">
+    <section class="section" id="writing">
       <div class="container">
         <div class="section-head reveal">
-          <span class="section-label">News & Articles</span>
-          <h2 class="section-title">Get <span class="gold">Updates</span></h2>
+          <span class="eyebrow">News & Articles</span>
+          <h2>Get <span class="text-gradient">updates</span></h2>
         </div>
         <div class="blog-grid">
-          <a href="https://dev.to/vathsaman/mempool-monitoring-for-mev-bots-technical-implementation-guide-4a8j" target="_blank" rel="noopener noreferrer" class="blog-card reveal">
-            <span class="blog-card__date">DEV Community · 29 min read</span>
-            <h3>Mempool Monitoring for MEV Bots</h3>
-            <p>Technical guide for mempool analysis, transaction intent & arbitrage detection.</p>
-            <span class="blog-card__author">By Aman Vaths</span>
-          </a>
-          <a href="https://dev.to/vathsaman/vps-hosting-for-trading-bots-server-setup-infrastructure-guide-3k8h" target="_blank" rel="noopener noreferrer" class="blog-card reveal">
-            <span class="blog-card__date">DEV Community · 6 min read</span>
-            <h3>VPS Hosting for Trading Bots</h3>
-            <p>Server setup & infrastructure guide for production bot deployments.</p>
-            <span class="blog-card__author">By Aman Vaths</span>
-          </a>
-          <a href="https://hackernoon.com/u/amanvaths" target="_blank" rel="noopener noreferrer" class="blog-card reveal">
-            <span class="blog-card__date">HackerNoon</span>
-            <h3>Web3 & Blockchain Stories</h3>
-            <p>Deep dives on decentralized infrastructure, MEV & enterprise blockchain.</p>
-            <span class="blog-card__author">By Aman Vaths</span>
-          </a>
-        </div>
-        <div class="text-center reveal" style="margin-top:2rem">
-          <a href="https://medium.com/@vathsaman" target="_blank" rel="noopener noreferrer" class="btn btn--gold">Read All Stories</a>
+          <a href="https://dev.to/vathsaman/mempool-monitoring-for-mev-bots-technical-implementation-guide-4a8j" target="_blank" rel="noopener noreferrer" class="blog-card glass glass-hover reveal"><span class="blog-card__meta">DEV · 29 min</span><h3>Mempool Monitoring for MEV Bots</h3><p>Technical guide for mempool analysis & arbitrage detection.</p></a>
+          <a href="https://dev.to/vathsaman/vps-hosting-for-trading-bots-server-setup-infrastructure-guide-3k8h" target="_blank" rel="noopener noreferrer" class="blog-card glass glass-hover reveal"><span class="blog-card__meta">DEV · 6 min</span><h3>VPS Hosting for Trading Bots</h3><p>Production bot deployment infrastructure guide.</p></a>
+          <a href="https://hackernoon.com/u/amanvaths" target="_blank" rel="noopener noreferrer" class="blog-card glass glass-hover reveal"><span class="blog-card__meta">HackerNoon</span><h3>Web3 & Blockchain Stories</h3><p>Enterprise blockchain architecture deep dives.</p></a>
         </div>
       </div>
     </section>
 
-    <!-- Contact CTA -->
-    <section class="cta-banner" id="contact">
-      <div class="container cta-banner__inner reveal">
-        <div>
-          <h2>Let's Build Something <span class="gold">Real</span></h2>
-          <p>Open to collaborations on Web3 infrastructure, blockchain architecture & enterprise digital engineering.</p>
-        </div>
-        <div class="cta-banner__btns">
-          <a href="https://www.nadcab.com/author/aman-vaths" target="_blank" rel="noopener noreferrer" class="btn btn--gold">Work With Me</a>
-          <a href="https://linkedin.com/in/amanvaths" target="_blank" rel="noopener noreferrer" class="btn btn--outline-light">LinkedIn</a>
+    <!-- CTA -->
+    <section class="cta" id="contact">
+      <div class="container cta__inner reveal">
+        <h2>Build your network.<br><span class="text-gradient">Own the upside.</span></h2>
+        <p>Open to Web3 infrastructure, blockchain architecture & enterprise digital engineering collaborations.</p>
+        <div class="cta__btns">
+          <a href="https://linkedin.com/in/amanvaths" target="_blank" rel="noopener noreferrer" class="btn btn--primary">Connect on LinkedIn</a>
+          <a href="https://www.nadcab.com/author/aman-vaths" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">Nadcab Labs</a>
         </div>
       </div>
     </section>
   </main>
 
-  <!-- Footer -->
   <footer class="footer">
     <div class="container footer__grid">
       <div class="footer__brand">
-        <a href="#top" class="logo logo--footer">
-          <img src="assets/avatar.jpg" alt="Aman Vaths" width="36" height="36">
-          <span>Aman<strong>Vaths</strong></span>
-        </a>
-        <p>In Web3, everyone has a voice. Aman Vaths builds the infrastructure that powers decentralized innovation across the globe.</p>
-        <p class="footer__addr">Nadcab Labs · India<br><a href="mailto:contact@nadcab.com">contact@nadcab.com</a></p>
-      </div>
-      <div class="footer__links">
-        <h4>Resources</h4>
-        <a href="#about">About</a>
-        <a href="#organizations">Organizations</a>
-        <a href="#projects">Portfolio</a>
-        <a href="https://github.com/amanvaths" target="_blank" rel="noopener noreferrer">GitHub</a>
-        <a href="https://dev.to/vathsaman" target="_blank" rel="noopener noreferrer">DEV Community</a>
-      </div>
-      <div class="footer__links">
-        <h4>Ventures</h4>
-        <a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer">Nadcab Labs</a>
-        <a href="https://inrx.io" target="_blank" rel="noopener noreferrer">INRx Foundation</a>
-        <a href="https://seedx.app" target="_blank" rel="noopener noreferrer">Seedx</a>
-        <a href="https://xamer.io" target="_blank" rel="noopener noreferrer">Xamer Security</a>
-      </div>
-      <div class="footer__newsletter">
-        <h4>Get Updated</h4>
-        <p>Follow for blockchain & Web3 insights.</p>
-        <div class="footer__social-row">
-          <a href="https://github.com/amanvaths" target="_blank" rel="noopener noreferrer" class="btn btn--gold btn--sm">GitHub</a>
-          <a href="https://twitter.com/aman_vaths" target="_blank" rel="noopener noreferrer" class="btn btn--outline-light btn--sm">@aman_vaths</a>
+        <a href="#top" class="nav__brand"><span class="nav__icon">AV</span><span>Aman Vaths</span></a>
+        <p>Blockchain architect & Web3 innovator. Building decentralized infrastructure that ships.</p>
+        <div class="footer__social">
+          <a href="https://github.com/amanvaths" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://twitter.com/aman_vaths" target="_blank" rel="noopener noreferrer">Twitter</a>
+          <a href="https://dev.to/vathsaman" target="_blank" rel="noopener noreferrer">DEV</a>
         </div>
       </div>
+      <div class="footer__col"><h4>Profile</h4><a href="#about">About</a><a href="#projects">Projects</a><a href="#writing">Blog</a><a href="#contact">Contact</a></div>
+      <div class="footer__col"><h4>Ventures</h4><a href="https://www.nadcab.com" target="_blank" rel="noopener noreferrer">Nadcab Labs</a><a href="https://inrx.io" target="_blank" rel="noopener noreferrer">INRx</a><a href="https://seedx.app" target="_blank" rel="noopener noreferrer">Seedx</a><a href="https://xamer.io" target="_blank" rel="noopener noreferrer">Xamer</a></div>
+      <div class="footer__col"><h4>Protocol</h4><a href="https://amanvaths.github.io/lae/">$LAE Token</a><a href="https://amanvaths.github.io/lae/whitepaper/">Whitepaper</a><a href="https://github.com/amanvaths/lae" target="_blank" rel="noopener noreferrer">LAE GitHub</a></div>
     </div>
-    <div class="footer__bottom">
-      <div class="container">
-        <p>© <span id="year"></span> Aman Vaths · Nadcab Labs. All Rights Reserved.</p>
-      </div>
+    <div class="footer__bottom container">
+      <p>© <span id="year"></span> Aman Vaths · Nadcab Labs. All rights reserved.</p>
+      <p class="footer__disclaimer">Nothing on this site is financial advice. Always do your own research.</p>
     </div>
   </footer>
 
-  <!-- Mobile Dock -->
-  <nav class="mobile-dock" aria-label="Mobile navigation">
+  <nav class="dock" aria-label="Mobile nav">
     <a href="#top" data-nav="top"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9.5L12 3l9 6.5V20a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.5z"/></svg><span>Home</span></a>
     <a href="#about" data-nav="about"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/></svg><span>About</span></a>
     <a href="#organizations" data-nav="organizations"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/></svg><span>Orgs</span></a>
-    <a href="#projects" data-nav="projects"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 016.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z"/></svg><span>Work</span></a>
+    <a href="https://amanvaths.github.io/lae/" data-nav="lae"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg><span>LAE</span></a>
     <a href="#contact" data-nav="contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"/></svg><span>Contact</span></a>
   </nav>
 
